@@ -94,6 +94,7 @@ class MainActivity : AppCompatActivity(),OnShowDialog {
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
                 if (!createSpinnerProperty) {
                     createSpinnerProperty = true
+                    return
                 }
                 if (viewModel.propertyStatus !=null){
                     if (viewModel.propertyStatus == PropertyStatus.fromStringToPropertyStatus(p0!!.getItemAtPosition(p2).toString())){
@@ -147,7 +148,7 @@ class MainActivity : AppCompatActivity(),OnShowDialog {
                             ).toString()
                         )
                     )
-                
+
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
