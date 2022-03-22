@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">home35Test</string>
+    <string name="created">Created</string>
+    <string-array name="property_array">
+        <item>All</item>
+        <item>Active</item>
+        <item>Occupied</item>
+        <item>Vacant</item>
+        <item>Inactive</item>
+    </string-array>
+    <string-array name="tenant_array">
+        <item>All</item>
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+</resources>
